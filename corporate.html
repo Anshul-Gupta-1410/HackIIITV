@@ -48,7 +48,10 @@
 				padding: 0;
 				display: flex;
 			}
-	
+			h1{
+				font-size: 45px;
+				text-align: center;
+			}
 			
 	
 			nav a:hover {
@@ -80,6 +83,9 @@
 			#main{
 				background-color: beige;
 			}
+			.intro{
+				font-size: 30px;
+			}
 			.tutorial{
 				font-weight: bolder;
 				font-size: 1.5em;
@@ -105,53 +111,71 @@
 				text-size-adjust:50px;
 	
 			}
+			header {
+				background-color:white;
+				color:black;
+			}
 			
+			.container {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			
+			.company-name {
+				font-size: 24px;
+			}
+			
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul li {
+				display: inline;
+			}
+			
+			nav ul li a {
+				color:#859098;
+				text-decoration: none;
+				margin-left: 20px;
+			}
+			
+			nav ul li:first-child a {
+				margin-left: 0;
+			}
+			span{
+				color: red;
+			}
+			.navbar-brand{
+				color: #1b1e20;;
+				font-size: 20px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
 	
 		</style>
 	</head>
 	<body class="is-preload">
-				<section class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-
-			        <div class="container">
-
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i> -->
-			                </button><br><br><br><br><br>
-			                <a class="navbar-brand" href="index.html">Finance<span>U</span></a>
-
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
-
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="index.html">Home</a></li>
-			                    <li class="scroll"><a href="index.html (#works)">Quiz</a></li>
-			                    <li class="scroll"><a href="index.html">Explore Topics</a></li>
-			                    <li class="scroll"><a href="index.html">Finance News</a></li>
-			                    <li class="scroll"><a href="index.html">Contact Us</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
-		    <div class="clearfix"></div>
-
-				</section><!-- /.top-area-->
-
-		<!-- Wrapper -->
 		<div id="wrapper">
-
+		<header>
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Finance<span>U</span></a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index.html">Quiz</a></li>
+						<li><a href="index.html">Explore</a></li>							
+						<li><a href="index.html">Finance News</a></li>
+						<li><a href="index.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
 			<!-- Header -->
-			<header id="header">
-				<h1>Corperate Finance</h1>
-			</header>
+			<h1 id="heading">
+				<h1>Corporate Finance</h1>
+			</h1>
 
 			<!-- Main -->
 			<div id="main">
@@ -279,61 +303,6 @@
 			
 			
 		</div>
-		<!-- footer start
-		<footer id="footer"  class="footer">
-			<div class="container">
-				<div class="footer-menu">
-		           	<div class="row">
-			           	<div class="col-sm-3">
-			           		 <div class="navbar-header">
-				                <a class="navbar-brand" href="index.html">Finance<span>U</span></a>
-				            </div><!--/.navbar-header-->
-			           	<!-- </div> -->
-			           	<!-- <div class="col-sm-9"> -->
-			           		<!-- <ul class="footer-menu-item"> -->
-			                    <!-- <li class="scroll"><a href="#works">About Us</a></li> -->
-			                    <!-- <li class="scroll"><a href="#explore">Explore</a></li> -->
-			                    <!-- <li class="scroll"><a href="#reviews">Review</a></li> -->
-			                    <!-- <li class="scroll"><a href="#blog">Blog</a></li> -->
-			                    <!-- <li class="scroll"><a href="#contact">Contact</a></li> -->
-			                <!-- </ul>/.nav -->
-			           	<!-- </div> -->
-		           <!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="hm-footer-copyright"> -->
-					<!-- <div class="row"> -->
-						<!-- <div class="col-sm-5"> -->
-							<!-- <p> -->
-								<!-- &copy;copyright <a href="#"></a> -->
-							<!-- </p>/p -->
-						<!-- </div> -->
-						<!-- <div class="col-sm-7"> -->
-							<!-- <div class="footer-social"> -->
-								<!-- <span><i class="fa fa-phone"> +91 9865473452</i></span> -->
-								<!-- <a href="#"><i class="fa fa-facebook"></i></a>	 -->
-								<!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
-								<!-- <a href="#"><i class="fa fa-linkedin"></i></a> -->
-								<!-- <a href="#"><i class="fa fa-google"></i></a> -->
-							<!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!--  -->
-				<!-- </div>/.hm-footer-copyright -->
-			<!-- </div>/.container -->
-<!--  -->
-			<!-- <div id="scroll-Top"> -->
-				<!-- <div class="return-to-top"> -->
-					<!-- <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i> -->
-				<!-- </div> -->
-				<!--  -->
-			<!-- </div>/.scroll-Top -->
-			<!--  -->
-        <!-- </footer>/.footer -->
-		<!-- footer end -->
-		 <!-- --> -->
-<!--  -->
-		<!--  -->
-		
 		
 		
 	</body>

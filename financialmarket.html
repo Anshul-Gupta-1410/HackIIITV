@@ -46,7 +46,10 @@
 				padding: 0;
 				display: flex;
 			}
-	
+			h1{
+				font-size: 45px;
+				text-align: center;
+			}
 			
 	
 			nav a:hover {
@@ -100,52 +103,79 @@
 				border-radius: 10px;
 				font-size: larger;
 			}
+			#submit{
+            
+				border: 1px solid black;
+				text-size-adjust:50px;
+	
+			}
+			header {
+				background-color:white;
+				color:black;
+			}
+			
+			.container {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			
+			.company-name {
+				font-size: 24px;
+			}
+			
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul li {
+				display: inline;
+			}
+			
+			nav ul li a {
+				color:#859098;
+				text-decoration: none;
+				margin-left: 20px;
+			}
+			
+			nav ul li:first-child a {
+				margin-left: 0;
+			}
+			span{
+				color: red;
+			}
+			.navbar-brand{
+				color: #1b1e20;;
+				font-size: 20px;
+				font-family: Arial, Helvetica, sans-serif;
+			}
 			
 		</style>
 	</head>
 	<body class="is-preload">
-		<section class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
-
-			        <div class="container">
-
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i> -->
-			                </button><br><br><br><br><br>
-			                <a class="navbar-brand" href="index.html">Finance<span>U</span></a>
-
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
-
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                    <li class=" scroll active"><a href="index.html">Home</a></li>
-			                    <li class="scroll"><a href="index.html">Quiz</a></li>
-			                    <li class="scroll"><a href="index.html">Explore Topics</a></li>
-			                    <li class="scroll"><a href="index.html">Finance News</a></li>
-			                    <li class="scroll"><a href="index.html">Contact Us</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
-		    <div class="clearfix"></div>
-
-				</section ><!-- /.top-area-->
-
 		<!-- Wrapper -->
 		<div id="wrapper">
+			<header>
+				<div class="container">
+					<a class="navbar-brand" href="index.html">Finance<span>U</span></a>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html">Quiz</a></li>
+							<li><a href="index.html">Explore</a></li>
+							<li><a href="index.html">Finance News</a></li>							
+							<li><a href="index.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
 
 			<!-- Header -->
-			<header id="header">
+			<h1 id="heading">
 				<h1>Financial Markets</h1>
-			</header>
+			</h1>
 
 			<!-- Main -->
 			<div id="main">
